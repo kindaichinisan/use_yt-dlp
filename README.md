@@ -19,6 +19,11 @@ yt-dlp --write-description --write-info-json --write-annotations --write-sub --w
 ### Download particular ID
 yt-dlp -f <ID> <youtube_link>
 
+## Convert youtube to mp3
+yt-dlp -x --audio-format mp3 --audio-quality 0 "https://www.youtube.com/watch?v=VIDEO_ID"
+May encounter issues downloading from some youtube link. Try another link.
+ERROR: [youtube] Xry6B0I3pT8: This video is not available
+
 ## Useful links
 official github: https://github.com/yt-dlp/yt-dlp
 tutorial: https://ostechnix.com/yt-dlp-tutorial/
